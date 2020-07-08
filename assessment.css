@@ -1,6 +1,6 @@
 body {
   background-color: :rgb(54, 54, 54);
-  color: #5dd9e2;
+  color: #9c90db;
   width: 500px;
   margin-right: auto;
   margin-left: auto;
@@ -8,9 +8,18 @@ body {
 button {
   padding: 5px 20px;
   background-color: #ec4c8f;
-  color: #fdffff;
-  border-color: #FDFFFF;
   border-style: none;
+  color: #fdffff;
+  border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .2s ease-out;   
+}
+.button:hover{
+	 cursor: pointer;
+     text-decoration: none;
+     transform: translateY(-4px);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
 }
 input {
   height: 20px;
