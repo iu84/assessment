@@ -24,3 +24,7 @@ button {
 input {
   height: 20px;
 }
+p {
+    color: rgb(50, 216, 86);
+    font-size: larger;    
+}
